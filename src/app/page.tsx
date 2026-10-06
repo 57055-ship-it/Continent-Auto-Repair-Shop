@@ -79,7 +79,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 relative selection:bg-red-500 selection:text-white">
+    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] relative selection:bg-red-500 selection:text-white transition-colors duration-400">
       
       {/* Top Animated Scroll-Progress Indicator */}
       <div
